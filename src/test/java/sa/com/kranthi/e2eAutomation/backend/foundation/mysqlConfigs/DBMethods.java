@@ -5,13 +5,13 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.*;
 
-public class DBMethods { // 37 usages & Harish Dewangan +9
+public class DBMethods { // 37 usages & kranthi +9
 
     public static Connection connection; // 15 usages
     public static Statement statement; // 47 usages
     public static ResultSet resultSet; // 9 usages
 
-    public static Statement setup(String JDBC_URL, String JDBC_USER, String JDBC_PASSWORD) { // & Harish Dewangan
+    public static Statement setup(String JDBC_URL, String JDBC_USER, String JDBC_PASSWORD) { // & kranthi
         // Establish connection to MySQL
         try {
             System.out.println("Creating Database Connection.");
@@ -25,7 +25,7 @@ public class DBMethods { // 37 usages & Harish Dewangan +9
     }
 
 
-    public static void updateDB(String query) { // @T.Ucoops @Harish Dewangan +1
+    public static void updateDB(String query) { // @T.Ucoops @kranthi +1
         try {
             if (statement == null) {
                 System.out.println("MySQL Test: Statement is null!");
