@@ -1,0 +1,128 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "1",
+                "name": "MoneyGram",
+                "active": true
+            },
+            {
+                "id": "2",
+                "name": "TerraPay",
+                "active": true
+            },
+            {
+                "id": "547",
+                "name": "WesternUnion",
+                "active": true
+            },
+            {
+                "id": "548",
+                "name": "Thunes",
+                "active": true
+            }
+        ]
+    }
+}. {"mto_id":"1","active_status":true}{
+    "data": {
+        "corridors": [
+            {
+                "countryId": 40,
+                "countryCode": "AFG",
+                "countryName": "rmt_country_AFG",
+                "countryFlagUrl": null,
+                "currencies": [
+                    {
+                        "currencyId": 95,
+                        "currencyCode": "AFN",
+                        "currencyName": "rmt_currency_AFN",
+                        "deliveryOptions": [
+                            {
+                                "deliveryOptionId": 3,
+                                "deliveryOptionName": "WILL_CALL",
+                                "corridorId": 3,
+                                "field": {
+                                    "id": 0,
+                                    "name": "WILL_CALL",
+                                    "topDestinations": []
+                                },
+                                "mtoName": "MoneyGram"
+                            },
+                            {
+                                "deliveryOptionId": 2,
+                                "deliveryOptionName": "DIRECT_TO_ACCT",
+                                "corridorId": 4,
+                                "field": {
+                                    "id": 50,
+                                    "name": "walletName",
+                                    "getEnumerationsURL": "/wallets?corridorId=4",
+                                    "topDestinations": [],
+                                    "type": "ENUM"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "countryId": 41,
+                "countryCode": "ALB",
+                "countryName": "rmt_country_ALB",
+                "countryFlagUrl": null,
+                "currencies": [
+                    {
+                        "currencyId": 164,
+                        "currencyCode": "EUR",
+                        "currencyName": "rmt_currency_EUR",
+                        "deliveryOptions": [
+                            {
+                                "deliveryOptionId": 3,
+                                "deliveryOptionName": "WILL_CALL",
+                                "corridorId": 8,
+                                "field": {
+                                    "id": 0,
+                                    "name": "WILL_CALL",
+                                    "topDestinations": []
+                                },
+                                "mtoName": "MoneyGram"
+                            }
+                        ]
+                    },
+                    {
+                        "currencyId": 148,
+                        "currencyCode": "ALL",
+                        "currencyName": "rmt_currency_ALL",
+                        "deliveryOptions": [
+                            {
+                                "deliveryOptionId": 3,
+                                "deliveryOptionName": "WILL_CALL",
+                                "corridorId": 9,
+                                "field": {
+                                    "id": 0,
+                                    "name": "WILL_CALL",
+                                    "topDestinations": []
+                                },
+                                "mtoName": "MoneyGram"
+                            }
+                        ]
+                    },
+                    {
+                        "currencyId": 138,
+                        "currencyCode": "USD",
+                        "currencyName": "rmt_currency_USD",
+                        "deliveryOptions": [
+                            {
+                                "deliveryOptionId": 3,
+                                "deliveryOptionName": "WILL_CALL",
+                                "corridorId": 10,
+                                "field": {
+                                    "id": 0,
+                                    "name": "WILL_CALL",
+                                    "topDestinations": []
+                                },
+                                "mtoName": "MoneyGram"
+                            }
+                        ]
+                    }
+                ]
+            },
